@@ -1,0 +1,113 @@
+body{
+    background-color: #f2e5d9;
+    max-width: 1440px;
+    margin: 3cm;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    padding: 48px;
+    background-color: #fff;
+    width: 50vw;
+    border-radius: 15px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 2px;
+}
+
+header .omeleteimg{
+    width: 100%;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+header h1{
+    font-family: "young serif", sans-serif;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+}
+header p{
+    font-size: 16px;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+main{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+main h3{
+    font-family: "Outfit", sans-serif;
+    font-size:large;
+    color: hsl(332, 51%, 32%);
+    overflow-wrap: break-word;
+}
+main .lista{
+    background-color: #fff5fa;
+    line-height: 30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: center;
+    list-style-position: inside;
+    list-style-type: square;
+    overflow-wrap: break-word;
+}
+
+main h2{
+    font-family: 'Young Serif', sans-serif;
+    font-size: 1.35rem;
+    color: hsl(14, 45%, 36%);
+    padding: 6px;
+    overflow-wrap: break-word;
+}
+
+main .ingredientes{
+    line-height: 30px;
+    list-style-type: square;
+    justify-content: center;
+    overflow-wrap: break-word;
+}
+
+main .como-fazer{
+    line-height: 30px;
+    overflow-wrap:break-word;
+
+}
+main p {
+    overflow-wrap: break-word;
+
+}
+
+table#valores {
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    table-layout: fixed;
+
+    
+}
+
+    table#valores td{
+    padding: 8px;
+    text-align:  center;
+    border-bottom: 1px solid black;
+}
+
+td:nth-child(1) {
+    width: 20%;
+    text-align:left;    
+}
+
+.attribution{
+    overflow-wrap: break-word;
+}

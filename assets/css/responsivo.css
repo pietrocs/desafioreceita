@@ -1,0 +1,27 @@
+@media (max-widht: 1440px) {
+  body {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-widht: 375px) {
+  .lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+ 
+  section {
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+  }
+ 
+  li {
+    gap: 8px;
+    text-align: center;
+    display: block;
+  }
+}
+
